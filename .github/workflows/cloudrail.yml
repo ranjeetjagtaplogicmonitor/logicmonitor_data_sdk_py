@@ -11,7 +11,7 @@ on:
 jobs:
   cloudrail:
     name: Run Indeni Cloudrail on Terraform code with SARIF output
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       actions: read
       contents: read
